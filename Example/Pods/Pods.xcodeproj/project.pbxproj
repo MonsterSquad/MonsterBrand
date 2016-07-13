@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		018B742D90066B3769D69C643CCB88F2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA560E358ABB8F870A72529EFE13C125 /* ReplaceMe.swift */; };
 		204A9223ADF25F26C61DFFD90EBCA120 /* Pods-MonsterBrand_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC09C06AB00C050F740653796ECE018 /* Pods-MonsterBrand_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		266B47B96C905BF09EC1373023ECE065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4246227CBA23DBAAECC573E1BAA2A106 /* Pods-MonsterBrand_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 479C0EE6DC661FB7596296E1A5756DF0 /* Pods-MonsterBrand_Tests-dummy.m */; };
 		5512A2B75D58F70F39AF1C8A1761CD77 /* MonsterBrand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6058DA505A38969913A0470C11E33FE /* MonsterBrand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F6D36E330B22D6C31D10E039AAB78F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D7C011941D366DDD00D68ABA /* Slogans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C011931D366DDD00D68ABA /* Slogans.swift */; };
 		EDAB6C16899798D44765BFCA551F3083 /* MonsterBrand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE437C34F58CB52B5586B40513B9871 /* MonsterBrand-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,8 @@
 		BB1D4E8C39C8622A20137D149E5DD070 /* Pods-MonsterBrand_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MonsterBrand_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4C515D00E13E3C52F139E6D1B85AC0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C011931D366DDD00D68ABA /* Slogans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slogans.swift; sourceTree = "<group>"; };
 		D8DD4DC8C8B15C9803253689712C9197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA560E358ABB8F870A72529EFE13C125 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E6058DA505A38969913A0470C11E33FE /* MonsterBrand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MonsterBrand-umbrella.h"; sourceTree = "<group>"; };
 		E7824503FA10CED1A6232BEDF6C13ADA /* Pods-MonsterBrand_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MonsterBrand_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FD99078841B493F83BC9C1A2F1A71E69 /* Pods-MonsterBrand_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MonsterBrand_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		7FBB27D9A469B0727552F2277F848215 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DA560E358ABB8F870A72529EFE13C125 /* ReplaceMe.swift */,
+				D7C011931D366DDD00D68ABA /* Slogans.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAB6C16899798D44765BFCA551F3083 /* MonsterBrand-dummy.m in Sources */,
-				018B742D90066B3769D69C643CCB88F2 /* ReplaceMe.swift in Sources */,
+				D7C011941D366DDD00D68ABA /* Slogans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87DCA48B7A05A3990D7AB619AD9098C3 /* MonsterBrand.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -442,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87DCA48B7A05A3990D7AB619AD9098C3 /* MonsterBrand.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
