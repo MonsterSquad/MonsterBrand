@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "MonsterBrand"
 ```
 
-## Author
-
-Krishna Kotecha, krishna.kotecha@logiccolony.com
-
 ## License
 
 MonsterBrand is available under the MIT license. See the LICENSE file for more info.
