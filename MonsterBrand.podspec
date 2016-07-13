@@ -27,7 +27,7 @@ In theory this pod would vend some brand assets via code. Maybe procedurally gen
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Krishna Kotecha' => 'krishna.kotecha@logiccolony.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MonsterBrand.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MonsterSquad/MonsterBrand.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
