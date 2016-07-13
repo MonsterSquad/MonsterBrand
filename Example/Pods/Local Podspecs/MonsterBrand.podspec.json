@@ -1,0 +1,22 @@
+{
+  "name": "MonsterBrand",
+  "version": "0.1.0",
+  "summary": "A short description of MonsterBrand.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MonsterBrand",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Krishna Kotecha": "krishna.kotecha@logiccolony.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MonsterBrand.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MonsterBrand/Classes/**/*"
+}

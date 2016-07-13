@@ -1,0 +1,6 @@
+framework module MonsterBrand {
+  umbrella header "MonsterBrand-umbrella.h"
+
+  export *
+  module * { export * }
+}

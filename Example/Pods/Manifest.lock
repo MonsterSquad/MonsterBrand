@@ -1,0 +1,16 @@
+PODS:
+  - MonsterBrand (0.1.0)
+
+DEPENDENCIES:
+  - MonsterBrand (from `../`)
+
+EXTERNAL SOURCES:
+  MonsterBrand:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MonsterBrand: 322bfe674644d24e14f70b443bd574897c03d9e3
+
+PODFILE CHECKSUM: 3025d6c2d5d8e5b6a01a9df1774b9a5ba69dc94b
+
+COCOAPODS: 1.0.0
