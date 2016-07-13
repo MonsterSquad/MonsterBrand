@@ -26,7 +26,7 @@ In theory this pod would vend some brand assets via code. Maybe procedurally gen
   s.homepage         = 'https://github.com/MonsterSquad/MonsterBrand'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Krishna Kotecha' => 'krishna.kotecha@logiccolony.com' }
+  s.author           = { 'Monster Dev' => 'developers@monsters.com' }
   s.source           = { :git => 'https://github.com/MonsterSquad/MonsterBrand.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
