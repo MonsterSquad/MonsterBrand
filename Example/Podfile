@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MonsterBrand_Tests' do
+  pod 'MonsterBrand', :path => '../'
+  
+  
+end
