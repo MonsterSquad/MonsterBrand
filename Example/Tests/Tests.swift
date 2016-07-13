@@ -14,16 +14,12 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+    func testBrandTagLines() {
+        let s = Slogans()
+        let result = s.brandTagLine()
+        
+        
+        XCTAssert("Monsters. Any time. Any place." == result, "Pass")
     }
     
 }

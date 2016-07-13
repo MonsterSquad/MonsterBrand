@@ -18,4 +18,8 @@ public class Slogans {
         return "Putting Monsters in your pocket."
     }
 
+    public init() {
+    }
+    
+    
 }
